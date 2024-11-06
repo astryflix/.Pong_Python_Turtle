@@ -21,7 +21,7 @@ class Ball(Turtle):
     def increase_speed(self):
         # You can adjust the speed increment to your preference
         if self.x_move > 0:
-            self.x_move += 1.5
+            self.x_move += 1
         else:
             self.x_move -= 1
 

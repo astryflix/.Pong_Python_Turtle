@@ -26,7 +26,7 @@ sc.onkeypress(l_paddle.go_down, "s")
 
 game_is_on = True
 while game_is_on:
-    time.sleep(0.05)
+    time.sleep(0.02)
     sc.update()
     ball.move()
 
